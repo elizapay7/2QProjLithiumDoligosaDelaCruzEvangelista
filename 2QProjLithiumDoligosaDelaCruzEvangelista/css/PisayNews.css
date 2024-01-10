@@ -57,31 +57,16 @@ h1{
     font-weight: 500;
     font-stretch:extra-expanded;
 }
+h2{
+    margin: 10px 50px 10px 50px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
 .container2{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.paragraph1{
-    font-size: 30px;
-}
-.paragraph2{
-    font-size: 20px;
-}
-.container3{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.paragraph4{
-    padding-right: 10px;
     border-right: 1px solid black;
-    grid-column: 1;
-}
-.paragraph5{
-    padding-left: 10px;
-    grid-column: 2;
 }
 .Image2{
-    width: 450px;
-    height: 320px;
-    padding-top: 10px;
+    padding-bottom: 10px;
 }
