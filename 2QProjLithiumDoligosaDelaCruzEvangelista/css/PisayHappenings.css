@@ -80,8 +80,22 @@ h1{
     padding-left: 10px;
     grid-column: 2;
 }
+.Image1{
+    width: 300px; 
+    height: 250px;
+}
 .Image2{
     width: 450px;
     height: 320px;
     padding-top: 10px;
+}
+.Image3{
+    width: 300px; 
+    height: 250px; 
+    margin-top: 10px;
+}
+.Image4{
+    width: 300px; 
+    height: 250px; 
+    margin-top: 10px;
 }
