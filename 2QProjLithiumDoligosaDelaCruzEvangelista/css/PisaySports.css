@@ -1,6 +1,7 @@
 body{
     margin: 50px 50px;
 }
+
 header{
     margin: 50px 50px 10px 50px;
     text-align: center;
@@ -11,48 +12,48 @@ header{
 }
 
 nav {
-background-color: #fff; 
-border-top: 3px solid black; 
-border-bottom: 3px solid black;
-position: sticky; 
-top: 0px;
-width: 100%;
-z-index: 100; 
+    background-color: #fff; 
+    border-top: 3px solid black; 
+    border-bottom: 3px solid black;
+    position: sticky; 
+    top: 0px;
+    width: 100%;
+    z-index: 100; 
 }
 
 nav ul {
-list-style: none;
-margin: 0;
-padding: 0;
-text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 nav li {
-display: inline-block;
-padding: 10px 20px;
+    display: inline-block;
+    padding: 10px 20px;
 }
 
 nav a {
-text-decoration: none;
-color: #333; 
-font-family: sans-serif; 
-font-weight: 500; 
+    text-decoration: none;
+    color: #333; 
+    font-family: sans-serif; 
+    font-weight: 500; 
 }
 
 nav a:visited {
-color: #666; 
+    color: #666; 
 }
 
 nav a:hover {
-color: #000; 
+    color: #000; 
 }
 
 nav a.active {
-color: #007bff; 
+    color: #007bff; 
 }
 
 h1{
-margin: 30px 50px 10px 50px;
+    margin: 30px 50px 10px 50px;
     text-align: center;
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
@@ -61,20 +62,20 @@ margin: 30px 50px 10px 50px;
 }
 
 .paragraph1 {
-grid-column: 1; 
-font-size: 30px;
-text-align: justify;
-margin: 12px;
+    grid-column: 1; 
+    font-size: 30px;
+    text-align: justify;
+    margin: 12px;
 }
 
 img {
-margin: 12px;
-grid-column: 3;
-width: 100%;
-border: 1px solid #ccc; 
-border-radius: 5px; 
-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
-display:inline;
+    margin: 12px;
+    grid-column: 3;
+    width: 100%;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    display:inline;
 }
 
 .image1{
@@ -86,19 +87,19 @@ display:inline;
     grid-template-columns: 1fr 1fr;
 }
 h2{
-margin: 10px 50px 10px 50px;
-text-align: center;
-font-size: 50px;
-font-family: 'Times New Roman', Times, serif;
-font-weight: lighter;
+    margin: 10px 50px 10px 50px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
 }
 p{
-margin: auto;
-font-size: 22px;
-text-align: justify;
+    margin: auto;
+    font-size: 22px;
+    text-align: justify;
 }
 .paragraph2{
-grid-column: 1 1;
+    grid-column: 1 1;
 }
 .image2{
     width: 350px;
@@ -106,7 +107,6 @@ grid-column: 1 1;
     float: right;
 }
 
-
 footer{
-text-align: center;
+    text-align: center;
 }

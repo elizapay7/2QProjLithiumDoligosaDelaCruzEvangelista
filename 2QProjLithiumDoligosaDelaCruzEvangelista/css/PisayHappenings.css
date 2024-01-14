@@ -127,7 +127,6 @@ h1{
     border-radius: 5px; 
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
-.video1{
-    width: 300px;
-    height: 220px
+footer{
+    text-align: center;
 }
