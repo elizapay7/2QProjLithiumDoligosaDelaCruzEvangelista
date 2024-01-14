@@ -57,13 +57,27 @@ h1{
     font-weight: 500;
     font-stretch:extra-expanded;
 }
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.paragraph1{
+    font-size: 30px;
+    grid-column: 1;
+}
+
+video{
+    float: right;
+    grid-column: 2;
+    height: 300px;
+    width: 420px;
+}
 .container2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.paragraph1{
-    font-size: 30px;
-}
+
 .paragraph2{
     font-size: 30px;
     padding: 10px;

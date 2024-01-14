@@ -93,10 +93,27 @@ p{
     font-family: 'Times New Roman', Times, serif; 
 }
 
-
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.image3{
+    object-fit: cover;
+    width: 125px;
+    height: 180px;
+}
+
+.image4{
+    object-fit: cover;
+    width: 125px;
+    height: 125px;
+}
+
+.image5{
+    object-fit: cover;
+    width: 125px;
+    height: 125px;
 }
 
 .member1{
@@ -110,7 +127,6 @@ p{
 .member3{
     grid-column: 3;
 }
-
 
 footer{
     text-align: center;
