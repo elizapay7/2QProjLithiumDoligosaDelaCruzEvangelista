@@ -65,7 +65,16 @@ h1{
     font-size: 30px;
 }
 .paragraph2{
-    font-size: 20px;
+    font-size: 30px;
+    padding: 10px;
+    grid-column: 1;
+    text-align: justify;
+}
+.paragraph3{
+    font-size: 30px;
+    padding: 10px;
+    grid-column: 3;
+    text-align: justify;
 }
 .container3{
     display: grid;
@@ -75,8 +84,49 @@ h1{
     padding-right: 10px;
     border-right: 1px solid black;
     grid-column: 1;
+    font-size: 35px;
+    text-align: justify;
 }
 .paragraph5{
+    font-size: 30px;
     padding-left: 10px;
     grid-column: 2;
+    text-align: justify;
+}
+.Image1{
+    width: 100%;
+    grid-column: 2;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.Image2{
+    width: 550px;
+    padding-top: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.Image3{
+    object-fit: cover;
+    width: 550px;
+    height:250px;
+    margin-top: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+.Image4{
+    object-fit: cover;
+    width: 550px;
+    height:250px;
+    margin-top: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+footer{
+    text-align: center;
 }
