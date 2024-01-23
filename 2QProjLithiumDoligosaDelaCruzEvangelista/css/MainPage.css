@@ -130,7 +130,7 @@ p{
     grid-column:2;
 }
 
-#img4{
+.sprite{
     display: inline;
     justify-content: flex-end;
     align-items: flex-end;
@@ -138,6 +138,18 @@ p{
     z-index:1;
     width: 450px;
 }
+
+.sprite{
+    background: url(../images/cat.png) no-repeat -15px -44px;
+	width: 85px;
+	height: 82px;
+    animation: cat 1s steps(3) infinite;
+    }
+
+    @keyframes cat{
+    from{background-position:-15px;}
+    to{background-position:-350px; }
+    }
 
 footer{
     text-align: center;
