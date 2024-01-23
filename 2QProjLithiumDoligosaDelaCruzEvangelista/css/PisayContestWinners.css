@@ -106,14 +106,33 @@ p{
 
 .image4{
     object-fit: cover;
-    width: 125px;
-    height: 125px;
+    width: 250px;
+    height: 250px;
 }
 
 .image5{
     object-fit: cover;
     width: 125px;
     height: 125px;
+}
+
+
+#m1{
+    width: 46px;
+    height: 44px;
+    background-image: url(../images/INSTAGRAMCOLORED.webp);
+}
+
+#m2{
+    width: 46px;
+    height: 44px;
+    background-image: url(../images/INSTAGRAMCOLORED.webp);
+}
+
+#m3{
+    width: 46px;
+    height: 44px;
+    background-image: url(../images/INSTAGRAMCOLORED.webp);
 }
 
 .member1{
