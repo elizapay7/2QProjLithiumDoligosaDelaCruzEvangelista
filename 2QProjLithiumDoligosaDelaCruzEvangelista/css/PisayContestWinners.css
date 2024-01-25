@@ -98,7 +98,6 @@ p{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-<<<<<<< HEAD
 body{
     margin: 50px 50px;
 }
@@ -272,8 +271,6 @@ footer{
     text-align: center;
 }
 
-
->>>>>>> 0295efbd3452b1e803e6a230dfd09132aeab0f34
 .member1{
     grid-column: 1;
 }
@@ -289,49 +286,3 @@ footer{
 footer{
     text-align: center;
 }
-#navlist {
-  position: relative;
-}
-
-#navlist li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  position: absolute;
-  top: 0;
-}
-
-#navlist li, #navlist a {
-  display: block;
-}
-
-#mem1 {
-    background: url('../images/INSTAGRAMCOLORED.gif') no-repeat -241px -149px;
-	width: 488px;
-	height: 488px;
-}
-
-#mem2 {
-    background: url('../images/INSTAGRAMCOLORED.gif') no-repeat -241px -149px;
-	width: 488px;
-	height: 488px;
-}
-
-#mem3 {
-    background: url('../images/INSTAGRAMCOLORED.gif') no-repeat -241px -149px;
-	width: 488px;
-	height: 488px;
-}
-
-#mem1 a:hover {
-  background: url('../images/INSTAGRAMCOLORED.gif') 0 -45px;
-}
-
-#mem2 a:hover {
-  background: url('../images/INSTAGRAMCOLORED.gif') 0 -45px;
-}
-
-#mem3 a:hover {
-  background: url('../images/INSTAGRAMCOLORED.gif') 0 -45px;
-}
-
