@@ -203,20 +203,20 @@ p{
 }
 
 .member1, .member2, .member3{
-	background: url(../images/icon.jpg) no-repeat -136px -32px;
+	background: url(../images/icon.png.jpeg) no-repeat -136px -32px;
 	width: 80px;
 	height: 92px;
 }
 .member1:hover{
-	background: url(../images/icon.jpg) no-repeat -136px -136px;
+	background: url(../images/icon.png.jpeg) no-repeat -136px -136px;
 	width: 80px;
 	height: 88px;
 }
 
 .bunny{
-    background: url(../images/bunny.png) no-repeat -150px 13px;
-	width: 96px;
-	height: 133px;
+    background: url(../images/bunny.png) no-repeat -72px -368px;
+	width: 695px;
+	height: 183px;
     animation: bunny 1s steps(2) infinite;
     }
 
@@ -230,7 +230,7 @@ p{
 }
 
 .member2:hover{
-	background: url(../images/icon.jpg) no-repeat -136px -136px;
+	background: url(../images/icon.png.jpeg) no-repeat -136px -136px;
 	width: 80px;
 	height: 88px;
 }
@@ -252,7 +252,7 @@ p{
 }
 
 .member3:hover{
-	background: url(../images/icon.jpg) no-repeat -136px -136px;
+	background: url(../images/icon.png.jpeg) no-repeat -136px -136px;
 	width: 80px;
 	height: 88px;
 }
