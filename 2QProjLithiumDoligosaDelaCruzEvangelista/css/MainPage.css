@@ -138,11 +138,11 @@ p{
     z-index:1;
     width: 450px;
 }
+
 .sprite {
-	background: url(../images/cat_jumping.jpeg) no-repeat -117px -56px;
-	width: 266px;
-	height: 390px;
-    padding-left: 50px;
+	background: url(../images/cat_jumping.jpeg) no-repeat -8px -24px;
+	width: 48px;
+	height: 40px;
 }
 
 footer{
