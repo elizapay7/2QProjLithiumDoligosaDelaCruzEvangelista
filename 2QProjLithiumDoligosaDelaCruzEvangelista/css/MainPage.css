@@ -130,13 +130,19 @@ p{
     grid-column:2;
 }
 
-#img4{
+.img4{
     display: inline;
     justify-content: flex-end;
     align-items: flex-end;
     float:right;
     z-index:1;
     width: 450px;
+}
+
+.sprite {
+	background: url(../images/cat_jumping.jpeg) no-repeat -8px -24px;
+	width: 48px;
+	height: 40px;
 }
 
 footer{

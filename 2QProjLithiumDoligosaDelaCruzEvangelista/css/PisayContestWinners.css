@@ -93,10 +93,181 @@ p{
     font-family: 'Times New Roman', Times, serif; 
 }
 
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+body{
+    margin: 50px 50px;
+}
+header{
+    margin: 50px 50px 10px 50px;
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-stretch:extra-expanded;
+}
+
+nav {
+    background-color: #fff; 
+    border-top: 3px solid black; 
+    border-bottom: 3px solid black;
+    position: sticky; 
+    top: 0px;
+    width: 100%;
+    z-index: 100; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; 
+    font-family: sans-serif; 
+    font-weight: 500; 
+}
+
+nav a:visited {
+    color: #666; 
+}
+
+nav a:hover {
+    color: #000; 
+}
+
+nav a.active {
+    color: #007bff; 
+}
+
+h1{
+    margin: 30px 50px 10px 50px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-stretch:extra-expanded;
+}
+
+.img1{
+    float: right;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+}
+
+.paragraph1{
+    padding:10px;
+    overflow: auto;
+}
+
+.img2{
+    float: left;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+}
+
+.paragraph2{
+    padding:10px;
+    overflow: auto;
+}
+
+p{
+    text-align: justify;
+    padding: 55px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif; 
+}
 
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.member1{
+    grid-column: 1;
+}
+
+.member1, .member2, .member3{
+	background: url(../images/icon.png.jpeg) no-repeat -136px -32px;
+	width: 80px;
+	height: 92px;
+}
+.member1:hover{
+	background: url(../images/icon.png.jpeg) no-repeat -136px -136px;
+	width: 80px;
+	height: 88px;
+}
+
+.bunny {
+	background: url(../images/bunny.png) no-repeat -72px -377px;
+	width: 150px;
+	height: 200px;
+    animation: walk 1s steps(2) infinite;
+}
+    @keyframes walk{
+    from{background-position:-72px;}
+    to{background-position:-368px;}
+    }
+
+.member2{
+    grid-column: 2;
+}
+
+.member2:hover{
+	background: url(../images/icon.png.jpeg) no-repeat -136px -136px;
+	width: 80px;
+	height: 88px;
+}
+
+.dog{
+    background: url(../images/dog.png) no-repeat -11px -284px;
+	width: 110px;
+	height: 76px;
+    animation: dog 1s steps(2) infinite;
+    }
+
+    @keyframes dog{
+    from{background-position:-0px -284px;}
+    to{background-position:-310px -289px; }
+    }
+
+.member3{
+    grid-column: 3;
+}
+
+.member3:hover{
+	background: url(../images/icon.png.jpeg) no-repeat -136px -136px;
+	width: 80px;
+	height: 88px;
+}
+.wolf{
+    background: url(../images/wolf.png) no-repeat -14px -272px;
+	width: 93px;
+	height: 88px;
+    animation: wolf 1s steps(2) infinite;
+    }
+
+    @keyframes wolf{
+    from{background-position:-14px -272px;}
+    to{background-position:-264px -273px; }
+    }
+footer{
+    text-align: center;
 }
 
 .member1{
@@ -110,7 +281,6 @@ p{
 .member3{
     grid-column: 3;
 }
-
 
 footer{
     text-align: center;

@@ -57,13 +57,38 @@ h1{
     font-weight: 500;
     font-stretch:extra-expanded;
 }
+
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.paragraph1{
+    grid-column: 1;
+    font-size: xx-large;
+}
+
+.sprite {
+	background: url(../images/rabbitwalkinganimation.png) no-repeat -30px -10px;
+	width: 180px;
+	height: 280px;
+    animation: walk 1s steps(3) infinite;
+    }
+
+    @keyframes walk{
+    from{background-position:-600px;}
+    to{background-position:0px;}
+    }
+
+video{
+    grid-column: 2;
+    width: 100%;
+}
 .container2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.paragraph1{
-    font-size: 30px;
-}
+
 .paragraph2{
     font-size: 30px;
     padding: 10px;
