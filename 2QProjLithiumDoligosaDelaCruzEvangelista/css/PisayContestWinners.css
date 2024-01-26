@@ -213,16 +213,15 @@ p{
 	height: 88px;
 }
 
-.bunny{
-    background: url(../images/bunny.png) no-repeat -72px -368px;
-	width: 695px;
-	height: 183px;
-    animation: bunny 1s steps(2) infinite;
-    }
-
-    @keyframes bunny{
-    from{background-position:-34px;}
-    to{background-position:-20px; }
+.bunny {
+	background: url(../images/bunny.png) no-repeat -72px -377px;
+	width: 150px;
+	height: 200px;
+    animation: walk 1s steps(2) infinite;
+}
+    @keyframes walk{
+    from{background-position:-72px;}
+    to{background-position:-368px;}
     }
 
 .member2{
